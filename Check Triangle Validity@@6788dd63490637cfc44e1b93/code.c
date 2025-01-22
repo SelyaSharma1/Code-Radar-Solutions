@@ -12,6 +12,9 @@ int main() {
     else if(a+c>b){
         printf("Valid");
     }
+    else if (a+b==c || b+c==a||a+c==b){
+        printf("Invalid");
+    }
     else {
         printf("Invalid");
     }
