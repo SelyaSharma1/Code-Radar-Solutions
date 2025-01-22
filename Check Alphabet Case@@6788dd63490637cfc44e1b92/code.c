@@ -2,15 +2,15 @@
 
 int main() {
     char c;
-    scanf("%c",&c)
+    scanf("%c",&c);
     if ('a'<=c &&'z'>=c){
-        printf("Lowercase")
+        printf("Lowercase");
     }
     else if ('A'<=c &&'Z'>=c){
-        printf("Uppercase")
+        printf("Uppercase");
     }
     else{
-        printf("Not an Alphabet")
+        printf("Not an Alphabet");
     }
     return 0;
 }
