@@ -3,7 +3,7 @@
 int main() {
     int a,b,dif;
     scanf("%d %d",&a,&b);
-    dif=a-b;
+    dif=b-a;
     if(dif>0){
         printf("Profit");
     }
