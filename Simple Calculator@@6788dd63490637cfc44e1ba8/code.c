@@ -4,7 +4,7 @@ int main() {
     int a ,b;
     float divs;
     char c;
-    divs=(float) a/(float) b;
+    divs= a/ b;
 
     scanf("%d %d %c",&a,&b,&c);
     if (c=='+'){
@@ -21,7 +21,7 @@ int main() {
             printf("error");
         }
         else{
-            printf("%d",divs);
+            printf("%d",a/b);
         }
     }
     return 0;
