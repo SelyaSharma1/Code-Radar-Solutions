@@ -2,7 +2,7 @@
 
 int main() {
     int a ,b;
-    float divs;
+   float divs;
     char c;
     divs= a/ b;
 
