@@ -17,7 +17,12 @@ int main() {
         printf("%d",a*b);
     }
     else{
-        printf("%d",divs);
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%d",divs);
+        }
     }
     return 0;
 }
