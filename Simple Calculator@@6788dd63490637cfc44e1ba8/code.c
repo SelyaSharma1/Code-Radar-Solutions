@@ -17,7 +17,7 @@ int main() {
         printf("%d",a*b);
     }
     else{
-        printf("%f",divs);
+        printf("%d",divs);
     }
     return 0;
 }
