@@ -7,10 +7,10 @@ int main() {
         printf("Equilateral");
     }
     else if (a==b!=c ||a==c!=b||c==b!=a){
-        printf("Isosceles")
+        printf("Isosceles");
     }
     else {
-        printf("Scalene")
+        printf("Scalene");
     }
     return 0;
 }
