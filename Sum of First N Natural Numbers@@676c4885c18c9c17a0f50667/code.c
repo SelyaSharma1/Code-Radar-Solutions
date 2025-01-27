@@ -6,6 +6,6 @@ int main() {
     for(i=1;i=a;i++){
         sum+=i
     }
-    print("%d",sum)
+    print("%d",sum);
     return 0;
 }
