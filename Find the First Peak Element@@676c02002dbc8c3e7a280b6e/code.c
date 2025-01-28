@@ -9,7 +9,7 @@ int main() {
     }
     for(j=1;j<sizeof(s);j++){
         if(s[j]>s[j-1]){
-            c=s[j];
+            c==s[j];
         }
     }
     printf("%d",c);
