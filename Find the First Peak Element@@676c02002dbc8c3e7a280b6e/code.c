@@ -12,6 +12,7 @@ int main() {
             printf("%d",s[j-1]);
             break;
         }
+        
         return 0;
     }
     
