@@ -12,6 +12,6 @@ int main() {
             c=s[j];
         }
     }
-    printf("%d",)
+    printf("%d",c);
     return 0;
 }
