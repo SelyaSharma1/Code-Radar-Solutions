@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,mul;
+    int a,mul,i;
     scanf("%d",&a);
     for(i=1;i<=10;i++){
         mul=a*i ;
