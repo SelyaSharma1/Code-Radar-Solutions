@@ -14,7 +14,7 @@ int main() {
             max=s[j];
         }
     }
-    int min=0;
+    int min=s[0];
 
     for(k=1;k<sizeof(s);k++){
         if(min>s[k]){
