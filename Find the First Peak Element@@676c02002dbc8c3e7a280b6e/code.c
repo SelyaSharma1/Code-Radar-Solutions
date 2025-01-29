@@ -3,7 +3,7 @@
 int main() {
     int a,i,j,s[a],b;
     scanf("%d",&a);
-    for(i=0;i<a;i++){
+    for(i=0;i<=a;i++){
         scanf("%d",&b);
         s[i]=b;
     }
