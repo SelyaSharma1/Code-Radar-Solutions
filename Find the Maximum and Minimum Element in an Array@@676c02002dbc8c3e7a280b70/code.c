@@ -5,7 +5,7 @@ int main() {
     int max=s[0];
     int min=s[0];
     scanf("%d",&a);
-    for(i=0;i<=a;i++){
+    for(i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
     for(j=1;j<=sizeof(s);j++){
