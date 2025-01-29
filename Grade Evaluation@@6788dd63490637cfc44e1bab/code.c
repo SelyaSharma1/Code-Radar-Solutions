@@ -4,19 +4,19 @@ int main() {
     char c;
     scanf("%c",&c);
     if (c=="A"){
-        printf("Excellent")
+        printf("Excellent");
     }
     else if(c=="B"){
-        printf("Good")
+        printf("Good");
     }
     else if(c=="C"){
-        printf("Average")
+        printf("Average");
     }
     else if(c=="D"){
-        printf("Below Average")
+        printf("Below Average");
     }
     else if(c=="F"){
-        printf("Fail")
+        printf("Fail");
     }
     return 0;
 }
