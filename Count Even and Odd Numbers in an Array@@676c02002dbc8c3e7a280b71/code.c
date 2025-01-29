@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     int s[a];
     for(i=1;i<=a;i++){
-        scanf("%d",s[i]);
+        scanf("%d",&s[i]);
     }
     for(j=1;j<=sizeof(s);j++){
         if(s[j]%2==0){
