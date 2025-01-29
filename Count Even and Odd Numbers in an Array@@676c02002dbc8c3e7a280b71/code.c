@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,even=0;
+    int a,i,j,even=0;
     int odd=0;
     scanf("%d",&a);
     int s[a];
@@ -16,7 +16,7 @@ int main() {
             odd+=1;
         }
     }
-printf("%d",even);
+printf("%d ",even);
 printf("%d",odd);
     return 0;
 }
