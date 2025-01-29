@@ -8,17 +8,17 @@ int main() {
     }
     for(j=0;j<sizeof(s);j++){
         if(s[j-1]>s[j]){
-            c==s[j-1];
+            c=s[j-1];
         }
     }
-    printf("%d",s[j-1]);
+    printf("%d",c);
 
     for(k=0;k<sizeof(s);k++){
         if(s[k-1]<s[k]){
-            d==s[k-1];
+            d=s[k-1];
         }
     }
-    printf("%d",s[k-1]);
+    printf("%d",d);
 
     return 0;
 }
