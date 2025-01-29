@@ -8,8 +8,8 @@ int main() {
     for(i=1;i<=a;i++){
         scanf("%d",s[i]);
     }
-    for(j=1;j<=s[a];j++){
-        if(a%2==0){
+    for(j=1;j<=sizeof(s);j++){
+        if(s[j]%2==0){
             even+=1;
         }
         else{
