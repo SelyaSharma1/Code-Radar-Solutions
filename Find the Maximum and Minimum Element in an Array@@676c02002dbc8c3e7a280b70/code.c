@@ -2,7 +2,6 @@
 
 int main() {
     int a,i,s[a],k,j,c,d;
-    int count=0;
     scanf("%d",&a);
     for(i=0;i<=a;i++){
         scanf("%d",&s[i]);
