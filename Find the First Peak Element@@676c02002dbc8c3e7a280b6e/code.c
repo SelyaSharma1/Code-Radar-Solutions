@@ -12,8 +12,8 @@ int main() {
             printf("%d",s[j-1]);
             break;
         }
-        else {
-            return -1;
+        else{
+            printf("-1")
         }
     }
     return 0;
