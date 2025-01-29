@@ -16,10 +16,10 @@ int main() {
 
     for(k=0;k<=sizeof(s);k++){
         if(s[k-1]<s[k]){
-            d=s[k-1]
+            d=s[k-1];
         }
     }
-    printf("%d",s[k-1])
+    printf("%d",s[k-1]);
 
     return 0;
 }
