@@ -21,8 +21,8 @@ int main() {
             min=s[k];
         }
     }
-    printf("%d",min);
-    printf("%d",max);
+    printf("%d",s[k]);
+    printf("%d",s[j]);
 
     return 0;
 }
