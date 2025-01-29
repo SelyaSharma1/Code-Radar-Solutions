@@ -8,13 +8,13 @@ int main() {
     for(i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    for(j=1;j<=sizeof(s);j++){
+    for(j=1;j<sizeof(s);j++){
         if(max<s[j]){
             max=s[j];
         }
     }
 
-    for(k=1;k<=sizeof(s);k++){
+    for(k=1;k<sizeof(s);k++){
         if(min>s[k]){
             min=s[k];
         }
