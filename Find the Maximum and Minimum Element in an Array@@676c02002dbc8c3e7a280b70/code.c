@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,i,s[a],k,j,c,d;
+    int a,i,s[a],k,j;
     int max=s[0];
     int min=s[0];
     scanf("%d",&a);
@@ -13,14 +13,14 @@ int main() {
             max=s[j];
         }
     }
-    printf("%d",c);
 
     for(k=1;k<=sizeof(s);k++){
         if(min>s[k]){
             min=s[k];
         }
     }
-    printf("%d",d);
+    printf("%d",min);
+    printf("%d",max)
 
     return 0;
 }
