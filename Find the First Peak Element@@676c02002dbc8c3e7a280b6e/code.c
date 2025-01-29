@@ -12,9 +12,6 @@ int main() {
             printf("%d",s[j-1]);
             break;
         }
-        else{
-            printf("-1");
-        }
     }
     return 0;
 }
