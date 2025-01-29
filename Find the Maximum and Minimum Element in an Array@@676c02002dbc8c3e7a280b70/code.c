@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,i,s[a],k,j;
+    int a,i,k,j;
 
     scanf("%d",&a);
+    int s[a]
     for(i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
