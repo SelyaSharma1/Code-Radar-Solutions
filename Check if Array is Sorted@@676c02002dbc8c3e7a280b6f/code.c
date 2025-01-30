@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a,j,i,flag=0;
+    int a,j,i;
+    int flag=0;
     scanf("%d",&a);
     int s[a];
     for(i=0;i<a;i++){
         scanf("%d",s[a]);
     }
     for(j=0;j<a;j++){
-        if(s[j-1]<s[j]){
+        if(s[j-1]<=s[j]){
             flag=0;
         }
         else{
