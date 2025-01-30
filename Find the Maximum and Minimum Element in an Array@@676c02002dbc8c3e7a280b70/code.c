@@ -9,20 +9,20 @@ int main() {
         scanf("%d",&s[i]);
     }
     int max=s[0];
-    for(j=1;j<sizeof(s);j++){
+    for(j=1;j<a;j++){
         if(max<s[j]){
             max=s[j];
         }
     }
     int min=s[0];
 
-    for(k=1;k<=sizeof(s);k++){
+    for(k=1;k<=a;k++){
         if(min>s[k]){
             min=s[k];
         }
     }
-    printf("%d ",s[k]);
-    printf("%d",s[j]);
+    printf("%d ",max);
+    printf("%d",min);
 
     return 0;
 }
