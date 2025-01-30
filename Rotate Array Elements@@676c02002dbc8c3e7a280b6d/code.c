@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(){
-    int a,i,b,k,j;
+    int a,i,k,j;
     scanf("%d",&a);
     int s[a];
     for(i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
     scanf("%d",&b);
-    for(j=b+1;j<a;j++){
+    for(j=3;j<a;j++){
         printf("%d\n",s[j]);
     }
-    for(k=0;k<=b;k++){
+    for(k=0;k<=2;k++){
         printf("%d\n",s[k]);
     }
 }
