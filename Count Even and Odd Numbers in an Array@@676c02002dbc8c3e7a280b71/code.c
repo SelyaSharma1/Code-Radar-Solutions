@@ -5,15 +5,15 @@ int main() {
     int odd=0;
     scanf("%d",&a);
     int s[a];
-    for(i=1;i<a;i++){
+    for(i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    for(j=0;j<sizeof(s);j++){
+    for(j=0;j<a;j++){
         if(s[j]%2==0){
-            even+=1;
+            even++;
         }
         else{
-            odd+=1;
+            odd++;
         }
     }
 printf("%d ",even);
