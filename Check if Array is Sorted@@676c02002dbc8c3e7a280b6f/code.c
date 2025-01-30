@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     int s[a];
     for(i=0;i<a;i++){
-        scanf("%d",s[a]);
+        scanf("%d",&s[a]);
     }
     for(j=0;j<a;j++){
         if(s[j-1]<=s[j]){
