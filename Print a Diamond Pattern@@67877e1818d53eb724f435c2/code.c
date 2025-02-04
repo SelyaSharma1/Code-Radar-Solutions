@@ -11,6 +11,7 @@ int main() {
             printf("*");
         }
         printf("\n");
+    }
     for(l=a-1;l>0;l--){
         for(m=a-1;m>=l;m--){
             printf(" ");
@@ -18,7 +19,8 @@ int main() {
         for(n=2*l-1;n>=1;n--){
             printf("*");
         }
-    }printf("\n");
+        printf("/n")
     }
+    
     return 0;
 }
