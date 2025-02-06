@@ -7,10 +7,10 @@ void main(){
         scanf("%d",&s[i]);
     }
     scanf("%d",&b);
-    for(j=b;j<a;j++){
+    for(j=3;j<a;j++){
         printf("%d\n",s[j]);
     }
-    for(k=0;k<=b+1;k++){
+    for(k=0;k<=2;k++){
         printf("%d\n",s[k]);
     }
 }
