@@ -10,14 +10,14 @@ int main() {
     }
     int max=s[0];
     for(j=1;j<a;j++){
-        if(max<s[j]){
+        if(max<=s[j]){
             max=s[j];
         }
     }
     int min=s[0];
 
     for(k=1;k<=a;k++){
-        if(min>s[k]){
+        if(min>=s[k]){
             min=s[k];
         }
     }
