@@ -7,7 +7,7 @@ void main(){
         scanf("%d",&s[i]);
     }
     scanf("%d",&b);
-    for(j=a-b;j<=a;j++){
+    for(j=a-b;j<=a-1;j++){
         printf("%d\n",s[j]);
     }
     for(k=0;k<a-b;k++){
