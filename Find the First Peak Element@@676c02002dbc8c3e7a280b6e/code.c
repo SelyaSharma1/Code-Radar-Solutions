@@ -13,7 +13,6 @@ int main() {
             break;
         }
     }
-    printf("-1");
     
     return 0;
 }
