@@ -8,9 +8,12 @@ int main() {
         s[i]=b;
     }
     for(j=1;j<=sizeof(s);j++){
-        if(s[j-1]>=s[j]){
+        if(s[j-1]>s[j]){
             printf("%d",s[j-1]);
             break;
+        }
+        else{
+            printf("-1");
         }
     }
     
