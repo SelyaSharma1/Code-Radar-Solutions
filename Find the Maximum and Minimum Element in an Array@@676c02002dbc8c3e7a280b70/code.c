@@ -16,7 +16,7 @@ int main() {
     }
     int min=s[0];
 
-    for(k=1;k<=a;k++){
+    for(k=1;k<a;k++){
         if(min>=s[k]){
             min=s[k];
         }
