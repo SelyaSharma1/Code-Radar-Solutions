@@ -8,13 +8,16 @@ int main(){
     }
     int count=1;
     for(int i=0;i<a;i++){
+        count=1;
         for(int j=i+1;j<a;j++){
-            if(s[j]>-1 && s[i]==s[j]){
+            if( s[i]==s[j]){
                 count++;
                 s[j]=-1;
             }
         }if(s[i]!=-1){
-        printf("%d %d\n",s[i],count);}
+        printf("%d %d\n",s[i],count);
+        
+        }
     }
 }
         
