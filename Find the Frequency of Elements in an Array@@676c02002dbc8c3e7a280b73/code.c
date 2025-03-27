@@ -4,7 +4,7 @@ int main(){
     scanf("%d",a);
     int s[a];
     for(int i=0;i<a;i++){
-        scanf("%d",s[i]);
+        scanf("%d",&s[i]);
     }
     for(int j=0;j<a-1;j++){
         for(int k=0;k<a-j-1;k++){
@@ -22,7 +22,7 @@ int main(){
             count++;
             p++;
         }else{
-            printf("%d %d",s[p],count);
+            printf("%d %d\n",s[p],count);
             count=1;
             p++;
         }
