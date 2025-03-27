@@ -18,7 +18,7 @@ int main(){
     }
     printf("%d",s[a-2]);
 }
-else {printf("-1")}
+else {printf("-1");}
 
     
 
