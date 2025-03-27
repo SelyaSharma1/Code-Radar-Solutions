@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<0;i++){
         scanf("%d",s[i]);
     }
-    for(j=0;j<a;j++){
-        for(k=0;k<a-j;k++){
+    for(int j=0;j<a;j++){
+        for(int k=0;k<a-j;k++){
         if(s[k]>s[k+1]){
             int temp=s[k];
             s[k]=s[k+1];
