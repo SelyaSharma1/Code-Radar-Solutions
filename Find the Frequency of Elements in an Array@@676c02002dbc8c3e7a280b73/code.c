@@ -11,10 +11,10 @@ int main(){
         for(int j=i+1;j<a;j++){
             if(s[j]>-1 && s[i]==s[j]){
                 count++;
-                s[j]=0=-1;
+                s[j]=-1;
             }
         }if(s[i]!=-1){
-        printf("%d %d",s[i],count);}
+        printf("%d %d\n",s[i],count);}
     }
 }
         
