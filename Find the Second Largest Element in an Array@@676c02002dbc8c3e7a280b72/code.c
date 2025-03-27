@@ -15,6 +15,6 @@ int main(){
         }
         }
     }
-    printf("%d",s[a-1]);
+    printf("%d",s[a-2]);
 
 }
