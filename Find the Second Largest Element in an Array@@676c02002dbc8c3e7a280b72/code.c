@@ -6,6 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
+    if(a>1){
     for(int j=0;j<a;j++){
         for(int k=0;k<a-j;k++){
         if(s[k]>s[k+1]){
@@ -16,5 +17,9 @@ int main(){
         }
     }
     printf("%d",s[a-2]);
+}
+else {printf("-1")}
+
+    
 
 }
