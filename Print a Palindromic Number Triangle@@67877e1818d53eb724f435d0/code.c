@@ -3,16 +3,19 @@
 int main()
 {
     int a;
+    
     scanf("%d",&a);
     for(int i=1;i<a+1;i++){
-        for(int k=0;k<i;k++){
-            if(i%2!=0&&k%2!=0||i%2==0&&k%2==0){
-                printf("0");
-            }
-            else{
-                printf("1");
-            }
+        for(int j=a-i;j>0;j--){
+            printf(" ");
+        }
+        for(int k=1;k<i+1;k++){
+            printf("%d",k);
            
+        }
+        for(int f=i-1;f>0;f--){
+            printf("%d",f);
+            
         }
         printf("\n");
     }
