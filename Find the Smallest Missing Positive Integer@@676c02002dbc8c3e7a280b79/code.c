@@ -25,7 +25,7 @@ int main(){
     printf("%d",count);
 }
 else{
-    printf("%d",a[0]);
+    printf("%d",s[0]);
 }
     
     
