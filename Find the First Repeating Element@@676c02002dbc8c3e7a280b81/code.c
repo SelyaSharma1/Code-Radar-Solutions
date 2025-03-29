@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    int num=0;
+    int num=-1;
     for(int j=0;j<a;j++){
         for(int k=j+1;k<a;k++){
             if(s[j]==s[k]){
@@ -16,7 +16,7 @@ int main(){
         
             
         }
-        if(num!=0){
+        if(num!=-1){
             break;
         }
         
