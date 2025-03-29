@@ -6,14 +6,11 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    int b ,r;
+    int b ,r=-1;
     scanf("%d",&b);
     for(int j=0;j<a;j++){
         if(s[j]==b){
              r=j;
-        }
-        else{
-             r=-1;
         }
     }
     printf("%d",r);
