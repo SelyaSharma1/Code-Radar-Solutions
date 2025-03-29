@@ -15,18 +15,16 @@ int main(){
         }
     }
     int count=s[0];
-    if(a>1){
     for( int j=0;j<a;j++){
         if(s[j]==count){
             count++;
         }
+        if(count<=0){
+            continue;
+        }
         
     }
     printf("%d",count);
-}
-else{
-    printf("%d",a);
-}
     
     
     return 0;
