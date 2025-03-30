@@ -23,6 +23,9 @@ int main(){
             f=count;
             maxel=s[j];
         }
+        else{
+            printf("-1")
+        }
         
     }
     printf("%d",maxel);
