@@ -24,7 +24,7 @@ int main(){
             maxel=s[j];
         }
         else{
-            printf("-1")
+            printf("-1");
         }
         
     }
