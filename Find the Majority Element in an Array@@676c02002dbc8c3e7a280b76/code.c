@@ -23,9 +23,7 @@ int main(){
             f=count;
             maxel=s[j];
         }
-        else{
-            maxel=-1;
-        }
+       
         
         
     }
