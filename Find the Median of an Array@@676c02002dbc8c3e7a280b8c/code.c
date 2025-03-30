@@ -9,8 +9,8 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    for(int j=0;j<a;j++){
-        for(int k=0;k<a-j;k++){
+    for(int j=0;j<a-1;j++){
+        for(int k=0;k<a-j-1;k++){
             if(s[k]>s[k+1]){
                 int temp=s[k];
                 s[k]=s[k+1];
@@ -26,7 +26,7 @@ int main()
     }
     else if(a%2!=0){
         int z=a/2;
-        int r=z+0.5;
+        int r=z;
         printf("%d",s[r]);
     }
     
