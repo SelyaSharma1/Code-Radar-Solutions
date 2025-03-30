@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    int f=0;
+    int f=1;
     int maxel=-1;
     for(int j=0;j<a;j++){
         int count=1;
