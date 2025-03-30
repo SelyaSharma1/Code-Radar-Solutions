@@ -10,11 +10,11 @@ int main(){
     for(int j=0;j<a;j++){
         for(int k=j+1;k<a;k++){
             p=s[k]*s[j];
-            if(max<=p){
-                max=p;
-            }
             
         }
+        if(max<=p){
+                max=p;
+            }
     }
     printf("%d",max);
     
