@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    int f=1;
+    int f=0;
     int maxel=-1;
     for(int j=0;j<a;j++){
         int count=1;
@@ -23,9 +23,7 @@ int main(){
             f=count;
             maxel=s[j];
         }
-        else{
-            printf("-1");
-        }
+        
         
     }
     printf("%d",maxel);
