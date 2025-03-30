@@ -4,21 +4,23 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    int b;
-    scanf("%d",&b);
+    
     int s[a];
     for(int i=0;i<a;i++){
         scanf("%d",&s[i]);
     }
-    int count=0;
+    int even=0;
     for(int j=0;j<a;j++){
-        if(b<s[j]){
-            count++;
+        if(s[j]%2==0){
+            if(even<s[j]){
+                even=s[j];
+                
+            }
         }
         
         
     }
-    printf("%d",count);
+    printf("%d",even);
     
     
 
