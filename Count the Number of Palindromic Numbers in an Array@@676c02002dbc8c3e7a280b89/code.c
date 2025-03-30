@@ -9,7 +9,7 @@ int main()
         scanf("%d",&s[i]);
     }
     int count=0;
-    for(int j=0;j<a-1;j++){
+    for(int j=0;j<a;j++){
         int num=s[j];
         int rr=0;
         while(num>0){
