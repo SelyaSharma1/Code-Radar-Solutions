@@ -12,6 +12,10 @@ int main() {
             printf("%d",s[j-1]);
             break;
         }
+        else if(s[j-1]==s[j]){
+            printf("-1");
+            break;
+        }
     }
     
     return 0;
